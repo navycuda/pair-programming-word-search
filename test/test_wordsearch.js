@@ -33,4 +33,10 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
+
+  it("should return true is the diagonal word is present", function() {
+    const result = wordSearch(wordArray, 'AECTY');
+
+    assert.isTrue(result);
+  });
 });
